@@ -1,0 +1,153 @@
+body.light {
+    background-color: #DCDCDC;
+    color: #121212;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #f5f5f5;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-toggle-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #f5f5f5;
+    border: 2px solid #b7b7b7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.theme-toggle-btn:hover {
+    background-color: #e0e0e0;
+    border-color: #888;
+    transform: scale(1.1);
+}
+
+/* Responsive Design - ئەنجامە بۆ مۆبایل */
+@media (max-width: 76px) {
+    .theme-toggle-btn {
+        width: 40px;
+        height: 40px;
+        top: 5px;
+        right: 5px;
+    }
+}
+
+.theme-toggle-btn {
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, border-color 0.3s;
+    font-size: 24px;
+}
+
+.theme-toggle-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-color: #888;
+}
+
+.icon {
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+body.dark .icon {
+    transform: rotate(360deg);
+    color: #fdd835;
+}
+
+body.light .icon {
+    transform: rotate(-360deg); 
+    color: #808080; 
+}
+
+.theme-toggle-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #b7b7b7;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+
+.theme-toggle-btn {
+    border-color: rgb(145, 145, 145);
+    background-color: #DCDCDC;
+} 
+
+@media (max-width: 76px) {
+    .theme-btn-container {
+        justify-content: center;
+        gap: 5px;
+    }
+    .toggle-wrapper {
+        width: 30px;
+        height: 15px;
+    }
+    .toggle-label {
+        width: 30px;
+        height: 15px;
+    }
+    .toggle-bg {
+        width: 12px;
+        height: 12px;
+    }
+    .theme-label {
+        font-size: 12px;
+    }
+}
+
+.theme-btn-container {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .theme-btn-container {
+        top: 5px;
+        right: 5px;
+        gap: 5px;
+    }
+}
+
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.light {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+.theme-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
