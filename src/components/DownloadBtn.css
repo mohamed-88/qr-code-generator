@@ -19,6 +19,7 @@ button {
   
   button svg {
     margin-right: 8px;
+    margin-bottom: -5px;
   }
   
   button:hover {

@@ -1,5 +1,7 @@
 import React from 'react';
+import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 import '../components/DownloadBtn.css';
+
 
 export default function DownloadBtn({ qrRef, url, handleQrReset, setDownloaded }) {
   const downloadQrCode = (e) => {
@@ -19,7 +21,7 @@ export default function DownloadBtn({ qrRef, url, handleQrReset, setDownloaded }
 
   return (
     <button onClick={downloadQrCode}>
-      Download New
+      Download New <CloudDownloadIcon />
     </button>
   );
 }

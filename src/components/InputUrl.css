@@ -1,0 +1,39 @@
+.input-url-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+
+.input-wrapper:focus-within {
+    border-color: #0078d7;
+}
+
+
+.url-input::placeholder {
+    color: #aaa;
+}
+
+.clear-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    margin-top: 28px;
+    margin-right: 10px;
+    padding: 6px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.clear-btn:hover {
+    background: #ff3333;
+}
+
+.clear-btn:active {
+    background: #e60000;
+}

@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -113,6 +107,7 @@ main {
 h1 {
 	margin-bottom: 1.5rem;
 }
+
 h1,
 
 h2,
@@ -345,14 +340,14 @@ input:active {
 .sketch-picker {
 	position: absolute !important;
 	z-index: 9;
-}
-
+}  
 
 /**  Card  **/
+
 .card {
-	margin-top: -40px;
+	margin-top: -75px;
 	margin-left: auto;
-	margin-right: 10px;
+	margin-right: auto;
 	max-width: 22rem;
 	padding: 1.2rem;
 	border-radius: 1.5rem;
@@ -446,7 +441,6 @@ input:active {
 	  left: .5rem;
 	}
 }
-
 
 /**  Attribution  **/
 .attribution {

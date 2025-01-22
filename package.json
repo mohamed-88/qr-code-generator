@@ -1,6 +1,6 @@
 {
   "name": "qr-code-generator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -8,11 +8,14 @@
     "@mui/icons-material": "^6.4.0",
     "@mui/material": "^6.4.0",
     "cra-template": "1.2.0",
+    "file-saver": "^2.0.5",
     "qrcode.react": "^4.2.0",
     "react": "^19.0.0",
     "react-color": "^2.19.3",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1"
+    "react-i18next": "^15.4.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.7.3"
   },
   "scripts": {
     "start": "react-scripts start",
